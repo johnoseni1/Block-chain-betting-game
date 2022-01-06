@@ -15,13 +15,9 @@ class Main extends Component {
                 <div className="card mb-4 bg-dark border-danger">
                   <div className="card-body">
                     <div>
-                      <a
-                        href="http://www.dappuniversity.com/bootcamp"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                     
                         <img src={dice} width="225" alt="logo" />
-                      </a>
+              
                     </div>
                     &nbsp;
                     <p></p>
