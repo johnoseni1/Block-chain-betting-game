@@ -1,9 +1,9 @@
 // This optional code is used to register a service worker.
 // register() is not called by default.
 
-// This lets the app load faster on subsequent visits in production, and gives
+// This lets the app load faster on subsequent visits in production and gives
 // it offline capabilities. However, it also means that developers (and users)
-// will only see deployed updates on subsequent visits to a page, after all the
+// will only see deployed updates on subsequent visits to a page after all the
 // existing tabs open on the page have been closed, since previously cached
 // resources are updated in the background.
 
@@ -47,7 +47,7 @@ export function register(config) {
           );
         });
       } else {
-        // Is not localhost. Just register service worker
+        // Is not localhost. Just register the service worker.
         registerValidSW(swUrl, config);
       }
     });
@@ -102,7 +102,7 @@ function checkValidServiceWorker(swUrl, config) {
   // Check if the service worker can be found. If it can't reload the page.
   fetch(swUrl)
     .then(response => {
-      // Ensure service worker exists, and that we really are getting a JS file.
+      // Ensure the service worker exists, and that we really are getting a JS file.
       const contentType = response.headers.get('content-type');
       if (
         response.status === 404 ||
@@ -120,9 +120,7 @@ function checkValidServiceWorker(swUrl, config) {
       }
     })
     .catch(() => {
-      console.log(
-        'No internet connection found. App is running in offline mode.'
-      );
+      console.log('No internet connection found. App is running in offline mode.');
     });
 }
 

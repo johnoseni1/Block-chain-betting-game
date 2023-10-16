@@ -1,9 +1,10 @@
-/* Styles go here */
+/* Styles for <br> element */
 br {
-   display: block;
-   margin: -4px;
+  display: block;
+  margin: -4px;
 }
 
+/* Styles for <div> element */
 div {
-	word-wrap: break-word;
+  word-wrap: break-word;
 }
