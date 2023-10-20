@@ -1,5 +1,5 @@
 "editor.quickSuggestions": {
-    "other": true,      // Enable quick suggestions in code
-    "comments": true,   // Enable quick suggestions in comments
-    "strings": false    // Disable quick suggestions in strings
+    "other": true,     
+    "comments": true,   
+    "strings": false    
 }
